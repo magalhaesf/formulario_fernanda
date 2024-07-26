@@ -4,14 +4,14 @@ meuFormulario.addEventListener("submit", function(event) {
   cadastrar_livro();
 });
 
-function nome_prof() {
-  const nome_prof = Number(document.getElementById("nome_prof").value);
-  return nome_prof;
+function turma() {
+  const turma = Number(document.getElementById("Turma").value);
+  return turma;
 }
 
-function cpf() {
- const segundo_numero_inteiro = Number(document.getElementById("CPF").value); 
- return cpf;
+function sala() {
+ const sala = Number(document.getElementById("Sala").value); 
+ return sala;
 }
 
 
