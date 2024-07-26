@@ -1,15 +1,15 @@
-var meuFormulario = document.getElementById("cadastro_livro");
+var meuFormulario = document.getElementById("cadastro_turma");
 meuFormulario.addEventListener("submit", function(event) {
   event.preventDefault();
-  cadastrar_livro();
+  cadastrar_turma();
 });
 
-function turma() {
+function capturarTurma() {
   const turma = Number(document.getElementById("Turma").value);
   return turma;
 }
 
-function sala() {
+function capturarSala() {
  const sala = Number(document.getElementById("Sala").value); 
  return sala;
 }
